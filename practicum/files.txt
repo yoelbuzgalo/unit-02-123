@@ -1,0 +1,94 @@
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo (main)
+$ ls
+mini_practicum_01.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo (main)
+$ ls -la
+total 8
+drwxr-xr-x 1 ybb5956 1049089    0 Sep  6 10:08 ./
+drwxr-xr-x 1 ybb5956 1049089    0 Sep  6 10:08 ../
+drwxr-xr-x 1 ybb5956 1049089    0 Sep  6 10:08 .git/
+-rw-r--r-- 1 ybb5956 1049089 3075 Sep  6 10:08 mini_practicum_01.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo (main)
+$ ls -la > list_information.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo (main)
+$ mkdir practicum
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo (main)
+$ cd practicum/
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ ls -la
+total 0
+drwxr-xr-x 1 ybb5956 1049089 0 Sep  6 10:18 ./
+drwxr-xr-x 1 ybb5956 1049089 0 Sep  6 10:18 ../
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ ls -la new_directory_detailed_list.txt
+ls: cannot access 'new_directory_detailed_list.txt': No such file or directory
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ ls -la > new_directory_detailed_list.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ vi about_me.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ cat about_me.txt > cat_of_about_me.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ cat cat_of_about_me.txt
+Yoel Baer Buzgalo
+01/17/2000
+Tel-Aviv, Israel
+Nirvana
+The catcher in the rye
+"Fake it till you make it"
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ rm cat_of_about_me.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ cp about_me.txt about_me_copy.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ cat about_me_me_copy.txt
+cat: about_me_me_copy.txt: No such file or directory
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ cat about_me_copy.txt
+Yoel Baer Buzgalo
+01/17/2000
+Tel-Aviv, Israel
+Nirvana
+The catcher in the rye
+"Fake it till you make it"
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ ls -la
+total 3
+drwxr-xr-x 1 ybb5956 1049089   0 Sep  6 10:23 ./
+drwxr-xr-x 1 ybb5956 1049089   0 Sep  6 10:18 ../
+-rw-r--r-- 1 ybb5956 1049089 104 Sep  6 10:21 about_me.txt
+-rw-r--r-- 1 ybb5956 1049089 104 Sep  6 10:23 about_me_copy.txt
+-rw-r--r-- 1 ybb5956 1049089 179 Sep  6 10:19 new_directory_detailed_list.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ rm new_directory_detailed_list.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ ls -la
+total 2
+drwxr-xr-x 1 ybb5956 1049089   0 Sep  6 10:24 ./
+drwxr-xr-x 1 ybb5956 1049089   0 Sep  6 10:18 ../
+-rw-r--r-- 1 ybb5956 1049089 104 Sep  6 10:21 about_me.txt
+-rw-r--r-- 1 ybb5956 1049089 104 Sep  6 10:23 about_me_copy.txt
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ mv about_me.txt ..
+
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo/practicum (main)
+$ rm about_me_copy.txt
+

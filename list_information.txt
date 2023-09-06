@@ -1,0 +1,6 @@
+total 8
+drwxr-xr-x 1 ybb5956 1049089    0 Sep  6 10:18 ./
+drwxr-xr-x 1 ybb5956 1049089    0 Sep  6 10:08 ../
+drwxr-xr-x 1 ybb5956 1049089    0 Sep  6 10:08 .git/
+-rw-r--r-- 1 ybb5956 1049089    0 Sep  6 10:18 list_information.txt
+-rw-r--r-- 1 ybb5956 1049089 3075 Sep  6 10:08 mini_practicum_01.txt
