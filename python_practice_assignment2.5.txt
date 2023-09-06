@@ -1,0 +1,10 @@
+ybb5956@GOL2025-21 MINGW64 ~/Documents/SoftDevI/unit-02-yoelbuzgalo (main)
+$ python
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> your_name = input('Enter your name: ')
+Enter your name: Yoel Buzgalo
+>>> print(your_name)
+Yoel Buzgalo
+>>> quit()
+
