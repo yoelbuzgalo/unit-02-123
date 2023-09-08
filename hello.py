@@ -16,5 +16,8 @@ def hello_you():
     your_name = input("Enter your name: ") # Ask the user its name
     print("Hello,", your_name) # Prints hello, name
 
-hello_world()
-hello_you()
+def main():
+  hello_world()
+  hello_you()
+
+main()

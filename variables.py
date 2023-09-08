@@ -10,8 +10,6 @@ def variable_practice():
 
     print("Your age is", my_age, "months! The number of days in a year is", number_of_days_in_year, "and your pet name is", pet_name, "and pi is", pi_value) # prints out all of the variables values
 
-variable_practice() # calls the function
-
 
 '''
 This function is part of activity 2.20, testing and practicing different variables with arithmetic operations
@@ -34,8 +32,6 @@ def expressions_practice():
     print("Math operation expression:",math_exp)
     print("Mix of everything expression:",mix_exp)
 
-expressions_practice()
-
 # This function takes in two numbers and supposedly prints added numbers of these two input numbers. However it prints out concentated string literals ("1"+"2" = "12") which is not correct.
 def prompt_and_print():
     number_1 = input("Enter first number: ")
@@ -43,4 +39,13 @@ def prompt_and_print():
     result = int(number_1) + int(number_2)
     print("Result is:", result)
 
-prompt_and_print()
+
+'''
+Part of Activity 2.22, adding a main function
+'''
+def main():
+    variable_practice()
+    expressions_practice()
+    prompt_and_print()
+
+main()

@@ -5,6 +5,11 @@ def bday_message():
     birth_year = input("Enter your birth year: ")
     print(name, 'your birthday is on', birth_month, birth_day, ',', birth_year)
 
-bday_message()
-bday_message()
-bday_message()
+
+
+def main():
+    bday_message()
+    bday_message()
+    bday_message()
+
+main()
