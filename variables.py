@@ -40,7 +40,7 @@ expressions_practice()
 def prompt_and_print():
     number_1 = input("Enter first number: ")
     number_2 = input("Enter second number: ")
-    result = number_1 + number_2
+    result = int(number_1) + int(number_2)
     print("Result is:", result)
 
 prompt_and_print()
