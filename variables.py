@@ -35,3 +35,12 @@ def expressions_practice():
     print("Mix of everything expression:",mix_exp)
 
 expressions_practice()
+
+# This function takes in two numbers and supposedly prints added numbers of these two input numbers. However it prints out concentated string literals ("1"+"2" = "12") which is not correct.
+def prompt_and_print():
+    number_1 = input("Enter first number: ")
+    number_2 = input("Enter second number: ")
+    result = number_1 + number_2
+    print("Result is:", result)
+
+prompt_and_print()
