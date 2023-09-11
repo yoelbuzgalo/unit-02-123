@@ -15,11 +15,11 @@ def alphabet_position(letter, reference):
 
 
 def main():
-    # letter = input("Enter a character:" )
-    # convert_to_ascii(letter)
-    # convert_from_ascii(1)
-    # convert_from_ascii(97)
-    # convert_from_ascii(100)
+    letter = input("Enter a character:" )
+    convert_to_ascii(letter)
+    convert_from_ascii(1)
+    convert_from_ascii(97)
+    convert_from_ascii(100)
     alphabet_position("A", A_ASCII_VALUE)
     alphabet_position("B", ord("B"))
     alphabet_position("C", ord("B"))
