@@ -1,18 +1,17 @@
-def convert_to_ascii():
-    my_char = input("Enter a char: ")
-    my_ord = ord(my_char)
-    print(my_ord)
+def convert_to_ascii(character):
+    my_ord = ord(character)
+    print("The ASCII code of:", character, "is",my_ord)
 
-def convert_from_ascii():
-    my_int = int(input("Enter an integer: "))
-    my_char = chr(my_int)
-    print("Ascii Code of your char is: ", my_char)
+def convert_from_ascii(ascii_value):
+    my_char = chr(ascii_value)
+    print("Ascii value of:", ascii_value, "is", my_char)
 
 
 def main():
-    convert_to_ascii()
-    convert_from_ascii()
-    convert_from_ascii()
-    convert_from_ascii()
+    letter = input("Enter a character:" )
+    convert_to_ascii(letter)
+    convert_from_ascii(1)
+    convert_from_ascii(97)
+    convert_from_ascii(100)
 
 main()
